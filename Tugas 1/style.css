@@ -1,0 +1,130 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6d787b;
+    color: #fefefe;
+}
+
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(6, 47, 72);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fdfcfc;
+}
+
+
+.profile-info h2 {
+    margin-bottom: 10px;
+}
+
+
+.social-media {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.social-links a:hover {
+    background-color: #197b94;
+}
+
+
+.about {
+    background-color: rgb(6, 47, 72);
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.about h2 {
+    text-align: center;
+}
+
+
+.biodata {
+    background-color: rgb(6, 47, 72);
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+
+.biodata h2 {
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #197b94;
+    color: white;
+}
+
+
+.date {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+footer {
+    background-color: #197b94;
+    color: #fdfcfc;
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+
+.social-media h2{
+    color:#fdffff;
+
+}
+
+
+.date p{
+    color:#272828;
+}
